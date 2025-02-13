@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Img from "./assets/Img/Bg.webp";
+import Img from "./assets/Img/BG.webp";
 import Quran from "./assets/Img/quran1.jpg";
 import DescriptionSection from "./DescriptionSection";
 import Image from "./Img";
