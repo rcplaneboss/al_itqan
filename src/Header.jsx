@@ -7,7 +7,7 @@ import './App.css'
 const Header = () => {
     return (
         <div className="header-box" id="home">
-            {/* <img src={Img} className="background-image" alt="bg-image" />*/}
+            <img src={Img} className="background-image" alt="bg-image" />
             <div className="over-lay"></div>    
             <DescriptionSection />
         </div>
