@@ -44,7 +44,7 @@ const SignUp = () => {
 
     useEffect(() => {
         if (data != null) {
-            axios.post("http://localhost/al_itqan/signup_admin.php", qs.stringify(data)).then((response) => {
+            axios.post("http://al-itqan-backend.onrender.com/signup_admin.php", qs.stringify(data)).then((response) => {
                 if (response.data.status) {
                     
                        navigate('/admin-login');
