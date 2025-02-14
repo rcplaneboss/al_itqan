@@ -41,7 +41,7 @@ const LogIn = () => {
 
    useEffect(() => {
       if (data != null) {
-         axios.post("http://al-itqan-backend.onrender.com/login_admin.php", qs.stringify(data)).then((response) => {
+         axios.post("https://al-itqan-backend.onrender.com/login_admin.php", qs.stringify(data)).then((response) => {
             if (!response.data.check_status) {
                setLogIn(true);
                console.log(response.data);
