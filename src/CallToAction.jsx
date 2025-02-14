@@ -11,7 +11,7 @@ const CallToAction = () => {
             </RouterLink>
             <div className="or-box montserrat">Or</div>
             <div className="whatsapp-box">
-                <Link text={"WhatApp Us"} link={"https://wa.me/2349078498281?text=Assalam%20aleikum%20warahmatullahi%20wabarakatuh,%20I%20want%20to%20register%20as%20a%20member%20of%20Al-Itqan%20school"} />
+                <Link text={"WhatApp Us"} link={"https://wa.me/2349161591133?text=Assalam%20aleikum%20warahmatullahi%20wabarakatuh,%20I%20want%20to%20register%20as%20a%20member%20of%20Al-Itqan%20school"} />
             </div>
         </div>
     );
