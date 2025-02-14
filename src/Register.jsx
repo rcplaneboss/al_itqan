@@ -96,7 +96,7 @@ const Register = () => {
           alert(response.data);
         })
         .catch((error) => {
-          console.log(error.message);
+          alert(error.message);
         });
     }
   }, [dataObject]);
