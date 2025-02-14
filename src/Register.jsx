@@ -93,7 +93,7 @@ const Register = () => {
             setStatus(false);
           }
           setErrorArray(response.data.errors);
-          console.log(response.data);
+          alert(response.data);
         })
         .catch((error) => {
           console.log(error.message);
