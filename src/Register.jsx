@@ -79,7 +79,7 @@ const Register = () => {
 
     if (dataObject !== null) {
       axios
-        .post("https://alitqanonlineschool.rf.gd/proxy.php", qs.stringify(dataObject))
+        .post("https://alitqanonlineschool.atwebpages.com", qs.stringify(dataObject))
         .then((response) => {
           if (
             !Object.values(response?.data?.errors).some((value) =>
