@@ -78,8 +78,8 @@ const Register = () => {
     }
 
     if (dataObject !== null) {
-     axios
-        .post("https://al-itqan-backend.onrender.com/index.php", qs.stringify(dataObject))
+      axios
+        .post("https://alitqanonlineschool.rf.gd/index.php", qs.stringify(dataObject))
         .then((response) => {
           if (
             !Object.values(response?.data?.errors).some((value) =>
