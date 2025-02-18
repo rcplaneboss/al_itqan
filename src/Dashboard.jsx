@@ -13,7 +13,7 @@ const Dashboard = () => {
 
     useEffect(() => {
 
-        axios.post('http://localhost/al_itqan/dashboard.php').then((res) => {
+        axios.post('http://alitqanonlineschool.rf.gd/views/dashboard.php').then((res) => {
             if (res.data.users) {
             setData(res.data.users);
             setDataInfo(res.data.info)
