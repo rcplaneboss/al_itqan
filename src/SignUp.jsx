@@ -44,7 +44,7 @@ const SignUp = () => {
 
     useEffect(() => {
         if (data != null) {
-            axios.post("https://alitqanonlineschool.rf.gd/views/signup_admin.php", qs.stringify(data)).then((response) => {
+            axios.post("https://al-itqan-backend.onrender.com/views/signup_admin.php", qs.stringify(data)).then((response) => {
                 if (response.data.status) {
                     
                        navigate('/admin-login');
